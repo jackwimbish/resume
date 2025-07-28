@@ -1,0 +1,182 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Jack Wimbish</title>
+<style>
+body {
+    color: #000000;
+    background: #EEEEEE;
+    font: 1.1em "Times New Roman";
+    line-height: 1.2;
+    margin: 40px 0;
+}
+#resume {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px 60px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 2px 2px 4px #AAAAAA;
+    -webkit-box-shadow: 2px 2px 4px #AAAAAA;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200%;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    border-bottom: 1px solid #000000;
+    text-transform: uppercase;
+    font-size: 130%;
+    margin: 1em 0 0 0;
+    padding: 0;
+}
+h3 {
+    font-size: 100%;
+    margin: 0.8em 0 0.3em 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+p {
+    margin: 0 0 0.5em 0;
+    padding: 0;
+    }
+ul {
+    padding: 0;
+    margin: 0 1.5em;
+    }
+/* ul immediately after h1 = contact list */
+h1 + ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+h1 + ul > li {
+    display: inline;
+    white-space: pre;
+    list-style-type: none;
+}
+h1 + ul > li:after {
+    content: "  \2022  ";
+}
+h1 + ul > li:last-child:after {
+    content: "";
+}
+/* p immediately after contact list = summary */
+h1 + ul + p {
+    margin: 1em 0;
+}
+@media print {
+    body {
+        font-size: 12pt;
+        margin: 0;
+        padding: 0;
+        background: none;
+    }
+    #resume {
+        margin: 0;
+        padding: 0;
+        border: 0px;
+        background: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    /* Make links black in PDF */
+    /* Move this outside the print block to apply this in HTML too */
+    a, a:link, a:visited, a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+}
+@page {
+    /* Change margins and paper size of PDF */
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
+    size: letter;
+    margin: 0.5in 0.8in;
+}
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 16pt;
+        margin: 0;
+        padding: 0;
+        background: #FFFFFF !important;
+    }
+    #resume {
+        margin: 0;
+        padding: 1em;
+        border: 0px;
+        background: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+}
+
+</style>
+</head>
+<body>
+<div id="resume">
+<!-- The (first) h1 will be used as the <title> of the HTML page -->
+<h1>Jack Wimbish</h1>
+<!-- The unordered list immediately after the h1 will be formatted on a single
+line. It is intended to be used for contact details -->
+<ul>
+<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#119;&#105;&#109;&#98;&#105;&#115;&#104;&#106;&#97;&#99;&#107;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#119;&#105;&#109;&#98;&#105;&#115;&#104;&#106;&#97;&#99;&#107;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+<li><a href="https://www.linkedin.com/in/jack-wimbish/">linkedin</a></li>
+<li><a href="https://github.com/jackwimbish">github</a></li>
+<li>Birmingham, AL, USA</li>
+</ul>
+<!-- The paragraph after the h1 and ul and before the first h2 is optional. It
+is intended to be used for a short summary. -->
+<p>Full-Stack Software Engineer with focus on database-heavy applications, HPC, and bioinformatics.</p>
+<h2>Experience</h2>
+<!-- You have to wrap the "left" and "right" half of these headings in spans by
+hand -->
+<h3><span>Challenger, Gauntlet AI</span> <span>Jun 2025 &ndash; Present</span></h3>
+<p>gauntletai.com</p>
+<ul>
+<li>Immersion in AI-first software development with Claude Code, Cursor, and more.</li>
+<li>Built web, mobile, and desktop apps with AI-first development methods.</li>
+</ul>
+<h3><span>Bioinformatician, UAB</span> <span>Sep 2021 &ndash; Jul 2025</span></h3>
+<p>University of Alabama at Birmingham, Dept. of Microbiology</p>
+<ul>
+<li>Designed and created databases for organizing large multi-omics study across 3 institutions.</li>
+<li>Set up and maintained AWS and OpenStack-based cloud infrastructure to host shared resources.</li>
+<li>Developed automated flow cytometry gating analysis pipeline</li>
+<li>Wrote scripts for data wrangling from various research and medical sources.</li>
+</ul>
+<h3><span>Computational Biologist, HudsonAlpha Institute for Biotechnology</span> <span>Jul 2011 &ndash; Mar 2018</span></h3>
+<p>The HudsonAlpha Genomic Services Laboratory (now Discovery Life Sciences),
+a production genomic sequencing core, providing sequencing services for
+clients around the world.</p>
+<ul>
+<li>Created and maintained a web-based LIMS (Laboratory Information Management System) customized for the needs of a genomics laboratory.</li>
+<li>Developed data pipelines for alignment and variant calling of genomic sequence data.</li>
+<li>Created databases and analysis software for research projects.</li>
+<li>Created backend software and a display interface for decoding hardware logs of sequencer machines and generating custom metrics.</li>
+</ul>
+<h3><span>Research Assistant, UAB</span> <span>Aug 2006 &ndash; Sep 2009</span></h3>
+<p>University of Alabama at Birmingham, School of Optometry - Vision Science</p>
+<ul>
+<li>Built systems for automated, stimulus-synchronized recording of electroencephalogram data and wrote accompanying analysis software. Developed GUIs for legacy lab code</li>
+</ul>
+<h2>Education</h2>
+<h3><span>University of Alabama at Birmingham, B.S. Computer Science, B.S. Biomedical Engineering</span> <span>Graduated 2011</span></h3>
+<h2>Publications</h2>
+<ul>
+<li><a href="https://science.sciencemag.org/content/347/6229/1436/tab-article-info">Cirulli, E. T. et al. Exome sequencing in amyotrophic lateral sclerosis identifies risk genes and pathways</a> <em>Science</em> 347(6229), 1436-1441 (2015)</li>
+<li><a href="https://www.nature.com/articles/nature11011">Neale, B. M. et al. Patterns and rates of exonic de novo mutations in autism spectrum disorders</a> <em>Nature</em> 485(7397), 242-245 (2012)</li>
+</ul>
+<h2>Skills</h2>
+<ul>
+<li>Programming: Python, Javascript, R, C, Bash, Java</li>
+<li>Development Tools: Claude Code, Cursor, Linux, Git, PostgreSQL, MySQL, Nginx</li>
+<li>Cloud: {AWS: [EC2, S3, RDS, Lambda]}, DigitalOcean, OpenStack</li>
+<li>Web development: HTML, CSS, REST, AlpineJS</li>
+<li>Frameworks: Flask, SQLAlchemy, Django, pandas, pytorch, sklearn</li>
+</ul></div>
+</body>
+</html>

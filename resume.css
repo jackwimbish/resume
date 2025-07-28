@@ -25,9 +25,16 @@ h2 {
     border-bottom: 1px solid #000000;
     text-transform: uppercase;
     font-size: 130%;
-    margin: 1em 0 0 0;
+    margin: 1em 0 0.5em 0; /* Changed bottom margin to 0.5em */
     padding: 0;
 }
+/*h2 {
+    border-bottom: 1px solid #000000;
+    text-transform: uppercase;
+    font-size: 130%;
+    margin: 1em 0 0 0;
+    padding: 0;
+}*/
 h3 {
     font-size: 100%;
     margin: 0.8em 0 0.3em 0;
@@ -63,10 +70,11 @@ h1 + ul > li:last-child:after {
 /* p immediately after contact list = summary */
 h1 + ul + p {
     margin: 1em 0;
+    text-align: center;
 }
 @media print {
     body {
-        font-size: 12pt;
+        font-size: 10.5pt;
         margin: 0;
         padding: 0;
         background: none;

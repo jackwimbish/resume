@@ -30,9 +30,16 @@ h2 {
     border-bottom: 1px solid #000000;
     text-transform: uppercase;
     font-size: 130%;
-    margin: 1em 0 0 0;
+    margin: 1em 0 0.5em 0; /* Changed bottom margin to 0.5em */
     padding: 0;
 }
+/*h2 {
+    border-bottom: 1px solid #000000;
+    text-transform: uppercase;
+    font-size: 130%;
+    margin: 1em 0 0 0;
+    padding: 0;
+}*/
 h3 {
     font-size: 100%;
     margin: 0.8em 0 0.3em 0;
@@ -68,10 +75,11 @@ h1 + ul > li:last-child:after {
 /* p immediately after contact list = summary */
 h1 + ul + p {
     margin: 1em 0;
+    text-align: center;
 }
 @media print {
     body {
-        font-size: 12pt;
+        font-size: 10.5pt;
         margin: 0;
         padding: 0;
         background: none;
@@ -130,7 +138,7 @@ line. It is intended to be used for contact details -->
 </ul>
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-<p>Full-Stack Software Engineer with focus on database-heavy applications, HPC, and bioinformatics.</p>
+<p>Full-Stack Software Engineer with focus on database-heavy applications, HPC, and bioinformatics. Adopts AI-driven development methods.</p>
 <h2>Experience</h2>
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
@@ -174,7 +182,7 @@ clients around the world.</p>
 <ul>
 <li>Programming: Python, Javascript, R, C, Bash, Java</li>
 <li>Development Tools: Claude Code, Cursor, Linux, Git, PostgreSQL, MySQL, Nginx</li>
-<li>Cloud: {AWS: [EC2, S3, RDS, Lambda]}, DigitalOcean, OpenStack</li>
+<li>Cloud: AWS, OpenStack, DigitalOcean</li>
 <li>Web development: HTML, CSS, REST, AlpineJS</li>
 <li>Frameworks: Flask, SQLAlchemy, Django, pandas, pytorch, sklearn</li>
 </ul></div>

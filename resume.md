@@ -10,7 +10,7 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-Full-Stack Software Engineer with focus on database-heavy applications, HPC, and bioinformatics.
+Full-Stack Software Engineer with focus on database-heavy applications, HPC, and bioinformatics. Adopts AI-driven development methods.
 
 ## Experience
 
@@ -63,6 +63,6 @@ University of Alabama at Birmingham, School of Optometry - Vision Science
 
  - Programming: Python, Javascript, R, C, Bash, Java
  - Development Tools: Claude Code, Cursor, Linux, Git, PostgreSQL, MySQL, Nginx
- - Cloud: {AWS: [EC2, S3, RDS, Lambda]}, DigitalOcean, OpenStack
+ - Cloud: AWS, OpenStack, DigitalOcean
  - Web development: HTML, CSS, REST, AlpineJS
  - Frameworks: Flask, SQLAlchemy, Django, pandas, pytorch, sklearn

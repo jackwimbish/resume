@@ -10,7 +10,7 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-Full-Stack Software Engineer with focus on database-heavy applications, HPC, and bioinformatics. Adopts AI-driven development methods.
+Full-Stack Software Engineer with focus on database-heavy applications, cloud infrastructure, HPC, and life science. Adopts AI-driven development methods.
 
 ## Experience
 
